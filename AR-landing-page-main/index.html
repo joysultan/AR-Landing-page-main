@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/Arik Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="timeline.css">
 </head>
@@ -20,7 +22,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero-section">
         <!-- Premiere Pro Realistic Timeline Background -->
-        <div class="timeline-bg">
+        <!-- <div class="timeline-bg">
             <div class="timeline-header">
                 <div class="timecode">00:01:23:14</div>
                 <div class="timeline-ruler"></div>
@@ -61,10 +63,10 @@
                 <div class="playhead-top"></div>
                 <div class="playhead-line"></div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Glass Blur Overlay -->
-        <div class="glass-overlay"></div>
+        <!-- <div class="glass-overlay"></div> -->
 
         <!-- Cinematic Floating Logos -->
         <div class="floating-logos">
@@ -103,7 +105,7 @@
     </section>
 
     <!-- Showreel Section -->
-    <section id="showreel" class="section">
+    <section id="showreel" class="section" data-aos="flip-down"  data-aos-duration="3000">
         <div class="container">
             <div class="section-header fade-up">
                 <h2 class="section-title">Showreel</h2>
@@ -368,7 +370,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section hero-section" style="min-height: 50vh;">
+    <!-- <section id="contact" class="section hero-section" style="min-height: 50vh;">
         <div class="glass-overlay" style="background: linear-gradient(to top, rgba(5,6,12,0.9), transparent);"></div>
         <div class="container contact-container relative z-10 fade-up">
             <h2 class="title" style="font-size: 3rem; margin-bottom: 20px;">Let's create something <span
@@ -377,9 +379,49 @@
                 collaborations.</p>
             <a href="mailto:arik@example.com" class="btn btn-primary btn-large">Get in Touch</a>
         </div>
-    </section>
+    </section> -->
 
-    <footer class="site-footer">
+<section class="c-contact-me" data-aos="fade-right"  data-aos-duration="3000">
+    <div class="contain-part">
+        <div class="left-part">
+            <div class="upwork">
+               <h2>Currently working as a <br>
+
+            <strong>Video Editor</strong> at</h2> 
+            <a href="#"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/upwork-icon.png" alt=""></a>
+            </div>
+            <div class="left-child">
+                <div class="linkedin">
+                  <a href="#"><img src="https://blakeoliver.com.au/wp-content/uploads/2023/06/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930585_835.png" alt=""></a>  
+                  <h4>Linkedin</h4>
+                </div>
+                <div class="whatsapp">
+                    <a href="#"><img src="img/Black-and-white-Whatsapp-logo-vector-PNG-removebg-preview.png" alt=""></a>
+                    <h3>Whatsapp</h3>
+                </div>
+            </div>
+        </div>
+        <div class="right-part">
+           <div class="contact-image-card ">
+
+    <div class="contact-text ">
+        <h2 class="text-center lg:text-5xl md:text-2xl text-base font-extrabold">LET’S TALK</h2>
+    </div>
+
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+        <img class="" src="img/Gemini_Generated_Image_7ukayr7ukayr7uka-removebg-preview.png" alt="Client">
+    </a>
+
+</div>  
+        </div>
+    </div>
+</section>
+
+<footer class="c-footer">
+ <h1>Arik Mahmud</h1>
+</footer>
+
+    <!-- <footer class="site-footer">
         <div class="container">
             <div class="footer-top">
                 <div class="footer-brand fade-up">
@@ -415,9 +457,9 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
-    </footer>
+
 
     <!-- Main Script -->
     <script src="script.js"></script>
@@ -449,6 +491,10 @@
             move();
         });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
